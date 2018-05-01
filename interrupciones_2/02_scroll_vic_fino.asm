@@ -1,10 +1,4 @@
 BasicUpstart2(main)
-/*
-    Interrupts - LO BASICO
-    Este programa cicla los colores del borde, 60 veces 
-    por segundo. En este ejemplo la fuente de interrupción
-    es el VIC2
-*/
 .const scrollLine = $0400+22*40
 
     * = $1000 "Main Program"
